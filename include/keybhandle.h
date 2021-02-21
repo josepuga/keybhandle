@@ -3,7 +3,6 @@
 #define KEYBHANDLE_H
 #define KEYBHANDLE_H_VERSION "1.0"
 #include <cassert>
-#include <iostream> //QUITAR, TEST ONLY
 #ifdef _WIN32
 #include <conio.h>
 #else
@@ -246,7 +245,4 @@ int kh::getkey()
     return key;
 }
 #endif // _WIN32
-
-
-
 #endif // KEYBHANDLE_H
